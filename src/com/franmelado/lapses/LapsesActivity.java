@@ -64,7 +64,7 @@ public class LapsesActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         
-        setContentView(R.layout.activity_lapses);
+        setContentView(R.layout.activity_main);
         
         myLapse = new Lapse();
         
