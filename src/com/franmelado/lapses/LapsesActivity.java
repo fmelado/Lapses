@@ -72,7 +72,7 @@ public class LapsesActivity extends Activity {
          * Initialization of variables
          */
         
-        //Initialization of Scale
+        // Initialization of Scale
         LayoutInflater factory = LayoutInflater.from(this);
         scaleview = factory.inflate(R.layout.scale, null);
         seekbarScale = (SeekBar) scaleview.findViewById(R.id.sbScale);
@@ -113,7 +113,7 @@ public class LapsesActivity extends Activity {
          * Handle changes on seekbars
          */
         
-        //Handle changes on Scale
+        // Handle changes on Scale
       	seekbarScale.setOnSeekBarChangeListener ( new OnSeekBarChangeListener() {
       		
       		public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
@@ -132,7 +132,7 @@ public class LapsesActivity extends Activity {
       		public void onStartTrackingTouch(SeekBar seekBar) {
             }
       	});
-        
+		
         //Handle changes on SSD seekbar
         seekbarSSD.setOnSeekBarChangeListener( new OnSeekBarChangeListener() {
 
@@ -228,18 +228,19 @@ public class LapsesActivity extends Activity {
 		return super.onCreateOptionsMenu(menu);
     }
 	
-	// Updates scale menu item
+	/* Updates scale menu item
 	@Override
 	public boolean onPrepareOptionsMenu(Menu menu) {
 		MenuItem scaleItem;
 		scaleItem = menu.findItem(R.id.menuScale);
-		//String hh = myLapse == null ? "2H" : String.valueOf(myLapse.getScale());
-		Integer hh = myLapse == null ? 1 : myLapse.getScale();
+		String hh = myLapse == null ? "2H" : String.valueOf(myLapse.getScale());
+		//Integer hh = myLapse == null ? 1 : myLapse.getScale();
 		//scaleItem.setTitle(Integer.parseInt(hh));
 		scaleItem.setTitle(hh);
 		return super.onPrepareOptionsMenu(menu);
 	}
-    
+	*/
+	
 	@SuppressWarnings("deprecation")
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
