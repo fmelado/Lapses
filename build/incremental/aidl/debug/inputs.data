@@ -1,0 +1,6 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1382799591000 2152 f9f03ad004017ec07b2090ca615bd534abf67e3b /Users/madriguera/AndroidStudioProjects/Lapses/src/com/franmelado/lapses/Lapse.java
+1382799591000 9649 bf3c145f0bddceee31d970a539e14810091c57a0 /Users/madriguera/AndroidStudioProjects/Lapses/src/com/franmelado/lapses/LapsesActivity.java
+1382799591000 1932 9f0c4fc37c11ef69de9a70bb6e97e7c75ca3bb2a /Users/madriguera/AndroidStudioProjects/Lapses/src/com/franmelado/lapses/HelpActivity.java

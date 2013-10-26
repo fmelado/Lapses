@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llScaleDialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+		
+    <TextView
+        android:id="@+id/tvScaleDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_margin="@dimen/margin"
+        android:text="@string/scaledialog" />
+	
+	<LinearLayout
+        android:id="@+id/llScale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin" >
+		
+        <TextView
+            style="@style/FontLabel"
+			android:id="@+id/tvScaleTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+			android:text="@string/scale" />
+		
+        <TextView
+			style="@style/FontValue"
+            android:id="@+id/tvScaleValue2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+			android:text="max. 2 h" />
+    </LinearLayout>
+	
+    <SeekBar
+        android:id="@+id/sbScale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+		android:layout_marginBottom="@dimen/margin"
+        android:max="29" />
+
+</LinearLayout>
+<!-- From: file:/Users/madriguera/AndroidStudioProjects/Lapses/res/layout/scale.xml -->

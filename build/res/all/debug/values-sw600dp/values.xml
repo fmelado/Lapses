@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/madriguera/AndroidStudioProjects/Lapses/res/values-sw600dp/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="margin">48dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+
+</resources>
