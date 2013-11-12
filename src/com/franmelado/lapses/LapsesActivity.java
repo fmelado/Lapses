@@ -14,6 +14,18 @@ import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
 
+public class LapsesFragment extends Fragment {
+
+	@Override
+	public View onCreateView(LayoutInflater inflater, ViewGroup container,
+							 Bundle savedInstanceState) {
+		View view = inflater.inflate(R.layout.activity_lapses,container,false);
+		setHasOptionsMenu(false);
+		return view;
+	}
+
+}
+
 public class LapsesActivity extends Activity {
 
 	SeekBar seekbarScale;

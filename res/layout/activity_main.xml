@@ -11,7 +11,7 @@
 
     <fragment
         android:id="@+id/list_pane"
-        android:name="com.franmelado.lapses.HelpFragment"
+        android:name="com.franmelado.lapses.SlidersFragment"
         android:layout_width="280dp"
         android:layout_height="match_parent"
         android:layout_gravity="left" />
@@ -27,7 +27,7 @@
 
     <fragment
         android:id="@+id/content_pane"
-        android:name="com.franmelado.lapses.SlidersFragment"
+        android:name="com.franmelado.lapses.HelpFragment"
         android:layout_width="450dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
