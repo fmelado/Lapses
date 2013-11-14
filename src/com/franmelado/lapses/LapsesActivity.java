@@ -1,33 +1,15 @@
 package com.franmelado.lapses;
 
-import android.app.Activity;
-import android.app.AlertDialog;
-import android.app.Dialog;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
-import android.widget.SeekBar;
-import android.widget.SeekBar.OnSeekBarChangeListener;
-import android.widget.TextView;
-
-public class LapsesFragment extends Fragment {
-
-	@Override
-	public View onCreateView(LayoutInflater inflater, ViewGroup container,
-							 Bundle savedInstanceState) {
-		View view = inflater.inflate(R.layout.activity_lapses,container,false);
-		setHasOptionsMenu(false);
-		return view;
-	}
-
-}
+import android.app.*;
+import android.content.*;
+import android.os.*;
+import android.view.*;
+import android.widget.*;
+import android.widget.SeekBar.*;
 
 public class LapsesActivity extends Activity {
 
+	/* Borrar, pertenece a SlidersFragment.java
 	SeekBar seekbarScale;
 	SeekBar seekbarSSD;
 	SeekBar seekbarSSI;
@@ -40,9 +22,15 @@ public class LapsesActivity extends Activity {
 	TextView valueFMD;
 	TextView valueFMF;
 	TextView picTotal;
+	*/
 	
 	Lapse myLapse;
 	
+	public Lapse getLapse(){
+		return this.myLapse;
+	}
+	
+	/* Convertir en DialogFragment
 	private static final int SCALE_DIALOG_ID = 0;
 	AlertDialog.Builder scaledialogbuilder;
 	AlertDialog scaledialog;
@@ -71,6 +59,7 @@ public class LapsesActivity extends Activity {
     	}
 		return dialog;
     }
+	*/
 	
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -80,9 +69,8 @@ public class LapsesActivity extends Activity {
         
         myLapse = new Lapse();
         
-        /**
+        /** Borrar, pertenece a SlidersFragment.java
          * Initialization of variables
-         */
         
         //Initialization of Scale
         LayoutInflater factory = LayoutInflater.from(this);
@@ -123,7 +111,7 @@ public class LapsesActivity extends Activity {
              
         /**
          * Handle changes on seekbars
-         */
+        
         
         //Handle changes on Scale
       	seekbarScale.setOnSeekBarChangeListener ( new OnSeekBarChangeListener() {
@@ -232,6 +220,8 @@ public class LapsesActivity extends Activity {
             public void onStopTrackingTouch(SeekBar seekBar) {
             }
         });
+		
+		*/
     }
 
     @Override
@@ -240,6 +230,7 @@ public class LapsesActivity extends Activity {
 		return super.onCreateOptionsMenu(menu);
     }
 	
+	/* Pasar a SlidersFragment.java
 	// Updates scale menu item
 	@Override
 	public boolean onPrepareOptionsMenu(Menu menu) {
@@ -251,18 +242,23 @@ public class LapsesActivity extends Activity {
 		scaleItem.setTitle(hh);
 		return super.onPrepareOptionsMenu(menu);
 	}
+	*/
     
 	@SuppressWarnings("deprecation")
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
+		/* Pasar a SlidersFragment.java
 		case (R.id.menuScale):
 			showDialog(SCALE_DIALOG_ID);
 			return true;
+		*/
+		/* Esto debería desplegar el SlidingPane
 		case (R.id.menuHelp):
 			Intent intent = new Intent(LapsesActivity.this, HelpActivity.class);
 			startActivity(intent);
 			return true;
+		*/
 		default:
 			return super.onOptionsItemSelected(item);
 		}
