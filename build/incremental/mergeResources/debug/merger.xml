@@ -938,6 +938,16 @@ false
                     </item>
                 </style>
             </file>
+            <file
+                name="activity_lapses"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/layout-land/activity_lapses.xml"
+                qualifiers="land"
+                type="layout" />
+            <file
+                name="checks"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/xml/checks.xml"
+                qualifiers=""
+                type="xml" />
         </source>
         <source path="/Users/madriguera/AndroidStudioProjects/Lapses/build/res/rs/debug" />
     </dataSet>
