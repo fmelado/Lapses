@@ -18,8 +18,7 @@
         android:theme="@style/LapsesTheme" >
         <activity
             android:name=".LapsesActivity"
-            android:label="@string/title_activity_lapses"
-            android:screenOrientation="portrait" >
+            android:label="@string/title_activity_lapses" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
