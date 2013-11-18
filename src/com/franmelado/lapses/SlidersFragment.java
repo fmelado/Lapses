@@ -31,7 +31,7 @@ public class SlidersFragment extends Fragment {
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 		View view = inflater.inflate(R.layout.fragment_sliders,container,false);
-		setHasOptionsMenu(false);
+		setHasOptionsMenu(true);
 		
 		/**
          * Initialization of variables
@@ -46,7 +46,6 @@ public class SlidersFragment extends Fragment {
 		seekbarScale = (SeekBar) scaleview.findViewById(R.id.sbScale);
 		seekbarScale.setProgress (myLapse.getScale() - 1);
 		scaleValue.setText ("max. " + myLapse.getScale() + " h");
-		*/
 		
         //Initialization of Shooting session - Duration
         valueSSD = (TextView) view.findViewById(R.id.tvSSDurationV);
@@ -75,13 +74,16 @@ public class SlidersFragment extends Fragment {
         //Initialization of pictotal
         picTotal = (TextView) view.findViewById(R.id.tvNumpic);
         picTotal.setText (((LapsesActivity)this.getActivity()).getLapse().getPt() + " " + getString(R.string.pictotal));
+		*/
 		
 	    return view;
 	}
 	
+	//* Desactivado para encontrar errores de ejecución
 	@Override
 	public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-		inflater.inflate(R.menu.activity_lapses, menu);
+		inflater.inflate(R.menu.fragment_sliders, menu);
 	}
+	//*/
 
 }

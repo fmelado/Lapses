@@ -15,6 +15,7 @@ public class HelpFragment extends Fragment {
 			Bundle savedInstanceState) {
 		View view = inflater.inflate(R.layout.fragment_help,container,false);
 		setHasOptionsMenu(false);
+		
 		ImageButton gplusbutton = (ImageButton) view.findViewById(R.id.gplusButton);
 		ImageButton gplv3button = (ImageButton) view.findViewById(R.id.gplv3Button);
 	

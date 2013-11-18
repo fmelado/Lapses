@@ -224,11 +224,13 @@ public class LapsesActivity extends Activity {
 		*/
     }
 
-    @Override
+    /* Desactivado para encontrar errores de ejecución
+	@Override
     public boolean onCreateOptionsMenu(Menu menu) {
 		getMenuInflater().inflate(R.menu.activity_lapses, menu);
 		return super.onCreateOptionsMenu(menu);
     }
+	*/
 	
 	/* Pasar a SlidersFragment.java
 	// Updates scale menu item
@@ -244,24 +246,24 @@ public class LapsesActivity extends Activity {
 	}
 	*/
     
+	/* Desactivado para encontrar errores de ejecución
 	@SuppressWarnings("deprecation")
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
-		/* Pasar a SlidersFragment.java
+		// Pasar a SlidersFragment.java
 		case (R.id.menuScale):
 			showDialog(SCALE_DIALOG_ID);
 			return true;
-		*/
-		/* Esto debería desplegar el SlidingPane
+		// Esto debería desplegar el SlidingPane
 		case (R.id.menuHelp):
 			Intent intent = new Intent(LapsesActivity.this, HelpActivity.class);
 			startActivity(intent);
 			return true;
-		*/
 		default:
 			return super.onOptionsItemSelected(item);
 		}
 	}
+	*/
     
 }
