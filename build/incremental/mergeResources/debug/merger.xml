@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/madriguera/AndroidStudioProjects/Lapses/res" >
+            <file
+                name="btn_default_holo_dark"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable/btn_default_holo_dark.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="progress_horizontal_holo_dark"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable/progress_horizontal_holo_dark.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="progress_indeterminate_horizontal_holo_dark"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable/progress_indeterminate_horizontal_holo_dark.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="scrubber_control_selector_holo_dark"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable/scrubber_control_selector_holo_dark.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="scrubber_progress_horizontal_holo_dark"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable/scrubber_progress_horizontal_holo_dark.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="btn_default_disabled_focused_holo_dark"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-hdpi/btn_default_disabled_focused_holo_dark.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="btn_default_disabled_holo_dark"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-hdpi/btn_default_disabled_holo_dark.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="btn_default_focused_holo_dark"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-hdpi/btn_default_focused_holo_dark.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="btn_default_normal_holo_dark"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-hdpi/btn_default_normal_holo_dark.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="btn_default_pressed_holo_dark"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-hdpi/btn_default_pressed_holo_dark.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_action_search"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-hdpi/ic_action_search.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_gplus"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-hdpi/ic_gplus.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="progress_bg_holo_dark"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-hdpi/progress_bg_holo_dark.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="progress_primary_holo"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-hdpi/progress_primary_holo.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="progress_secondary_holo"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-hdpi/progress_secondary_holo.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="progressbar_indeterminate_holo1"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-hdpi/progressbar_indeterminate_holo1.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="progressbar_indeterminate_holo2"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-hdpi/progressbar_indeterminate_holo2.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="progressbar_indeterminate_holo3"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-hdpi/progressbar_indeterminate_holo3.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="progressbar_indeterminate_holo4"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-hdpi/progressbar_indeterminate_holo4.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="progressbar_indeterminate_holo5"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-hdpi/progressbar_indeterminate_holo5.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="progressbar_indeterminate_holo6"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-hdpi/progressbar_indeterminate_holo6.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="progressbar_indeterminate_holo7"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-hdpi/progressbar_indeterminate_holo7.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="progressbar_indeterminate_holo8"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-hdpi/progressbar_indeterminate_holo8.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="scrubber_control_disabled_holo"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-hdpi/scrubber_control_disabled_holo.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="scrubber_control_focused_holo"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-hdpi/scrubber_control_focused_holo.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="scrubber_control_normal_holo"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-hdpi/scrubber_control_normal_holo.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="scrubber_control_pressed_holo"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-hdpi/scrubber_control_pressed_holo.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="scrubber_primary_holo"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-hdpi/scrubber_primary_holo.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="scrubber_secondary_holo"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-hdpi/scrubber_secondary_holo.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="scrubber_track_holo_dark"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-hdpi/scrubber_track_holo_dark.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_gplus"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-ldpi/ic_gplus.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-ldpi/ic_launcher.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="btn_default_disabled_focused_holo_dark"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-mdpi/btn_default_disabled_focused_holo_dark.9.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="btn_default_disabled_holo_dark"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-mdpi/btn_default_disabled_holo_dark.9.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="btn_default_focused_holo_dark"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-mdpi/btn_default_focused_holo_dark.9.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="btn_default_normal_holo_dark"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-mdpi/btn_default_normal_holo_dark.9.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="btn_default_pressed_holo_dark"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-mdpi/btn_default_pressed_holo_dark.9.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_action_search"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-mdpi/ic_action_search.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_gplv3"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-mdpi/ic_gplv3.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="progress_bg_holo_dark"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-mdpi/progress_bg_holo_dark.9.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="progress_primary_holo"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-mdpi/progress_primary_holo.9.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="progress_secondary_holo"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-mdpi/progress_secondary_holo.9.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="progressbar_indeterminate_holo1"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-mdpi/progressbar_indeterminate_holo1.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="progressbar_indeterminate_holo2"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-mdpi/progressbar_indeterminate_holo2.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="progressbar_indeterminate_holo3"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-mdpi/progressbar_indeterminate_holo3.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="progressbar_indeterminate_holo4"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-mdpi/progressbar_indeterminate_holo4.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="progressbar_indeterminate_holo5"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-mdpi/progressbar_indeterminate_holo5.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="progressbar_indeterminate_holo6"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-mdpi/progressbar_indeterminate_holo6.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="progressbar_indeterminate_holo7"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-mdpi/progressbar_indeterminate_holo7.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="progressbar_indeterminate_holo8"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-mdpi/progressbar_indeterminate_holo8.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="scrubber_control_disabled_holo"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-mdpi/scrubber_control_disabled_holo.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="scrubber_control_focused_holo"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-mdpi/scrubber_control_focused_holo.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="scrubber_control_normal_holo"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-mdpi/scrubber_control_normal_holo.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="scrubber_control_pressed_holo"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-mdpi/scrubber_control_pressed_holo.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="scrubber_primary_holo"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-mdpi/scrubber_primary_holo.9.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="scrubber_secondary_holo"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-mdpi/scrubber_secondary_holo.9.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="scrubber_track_holo_dark"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-mdpi/scrubber_track_holo_dark.9.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="btn_default_disabled_focused_holo_dark"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-xhdpi/btn_default_disabled_focused_holo_dark.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="btn_default_disabled_holo_dark"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-xhdpi/btn_default_disabled_holo_dark.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="btn_default_focused_holo_dark"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-xhdpi/btn_default_focused_holo_dark.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="btn_default_normal_holo_dark"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-xhdpi/btn_default_normal_holo_dark.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="btn_default_pressed_holo_dark"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-xhdpi/btn_default_pressed_holo_dark.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_action_search"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-xhdpi/ic_action_search.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_gplus"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-xhdpi/ic_gplus.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="progress_bg_holo_dark"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-xhdpi/progress_bg_holo_dark.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="progress_primary_holo"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-xhdpi/progress_primary_holo.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="progress_secondary_holo"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-xhdpi/progress_secondary_holo.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="progressbar_indeterminate_holo1"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-xhdpi/progressbar_indeterminate_holo1.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="progressbar_indeterminate_holo2"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-xhdpi/progressbar_indeterminate_holo2.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="progressbar_indeterminate_holo3"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-xhdpi/progressbar_indeterminate_holo3.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="progressbar_indeterminate_holo4"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-xhdpi/progressbar_indeterminate_holo4.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="progressbar_indeterminate_holo5"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-xhdpi/progressbar_indeterminate_holo5.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="progressbar_indeterminate_holo6"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-xhdpi/progressbar_indeterminate_holo6.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="progressbar_indeterminate_holo7"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-xhdpi/progressbar_indeterminate_holo7.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="progressbar_indeterminate_holo8"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-xhdpi/progressbar_indeterminate_holo8.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="scrubber_control_disabled_holo"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-xhdpi/scrubber_control_disabled_holo.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="scrubber_control_focused_holo"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-xhdpi/scrubber_control_focused_holo.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="scrubber_control_normal_holo"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-xhdpi/scrubber_control_normal_holo.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="scrubber_control_pressed_holo"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-xhdpi/scrubber_control_pressed_holo.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="scrubber_primary_holo"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-xhdpi/scrubber_primary_holo.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="scrubber_secondary_holo"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-xhdpi/scrubber_secondary_holo.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="scrubber_track_holo_dark"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/drawable-xhdpi/scrubber_track_holo_dark.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="activity_help"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/layout/activity_help.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_lapses"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/layout/activity_lapses.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="scale"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/layout/scale.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_lapses"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/menu/activity_lapses.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="padding_medium" >16dp
+                </dimen>
+                <dimen name="padding_small" >8dp
+                </dimen>
+                <dimen name="margin" >12dp
+                </dimen>
+                <dimen name="padding_large" >32dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/values/strings.xml"
+                qualifiers="" >
+                <string name="fps" >FPS
+                </string>
+                <string name="aboutDE" >German translation: Isabel Melado
+                </string>
+                <string name="duration" >Duration
+                </string>
+                <string name="scale" >Scale
+                </string>
+                <string name="every" >1 picture every
+                </string>
+                <string name="interval" >Interval
+                </string>
+                <string name="lapse" >Lapse
+                </string>
+                <string name="hide" >Hide
+                </string>
+                <string name="title_activity_lapses" >Lapses
+                </string>
+                <string name="description3" >All these parameters are related and should be planned before shooting. Enter the parameters in Lapse, and adjust your capture by using the sliders. When editing a parameter, Lapse will change the rest following an intuitive logic.
+                </string>
+                <string name="description2" >In a time-lapse the image acquisition should be adjusted to the event to be registered. It has to last as long as the event, and the catch rate should be adjusted to the changes speed. In addition, you should also think about how you will show it to the world: how much condensed in time will it be, and how soft or suddenly it will be showed.
+                </string>
+                <string name="menu_settings" >Settings
+                </string>
+                <string name="description1" >Lapse helps you plan your time-lapse captures. An external camera must be used, as the app will not take pictures for you.
+                </string>
+                <string name="about1" >Idea and execution: Francisco Melado
+                </string>
+                <string name="timer" >Timer
+                </string>
+                <string name="about2" >Java developing: Cintia Folgado
+                </string>
+                <string name="about3" >Logo: David Galicia
+                </string>
+                <string name="about4" >francisco.melado.morillo@gmail.com
+                </string>
+                <string name="about5" >https://plus.google.com/b/100806975056898941796/100806975056898941796/posts
+                </string>
+                <string name="help" >Help
+                </string>
+                <string name="planned" >Planned:
+                </string>
+                <string name="about6" >This application is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+                </string>
+                <string name="scaledialog" >Set the maximum duration for this shooting session. The session\’s slider will be adjusted to this maximum, allowing you to use it more accurately.
+                </string>
+                <string name="about7" >http://www.gnu.org/licenses/gpl-3.0.html
+                </string>
+                <string name="accept" >Accept
+                </string>
+                <string name="about8" >Download the source code:
+                </string>
+                <string name="about9" >http://dl.dropbox.com/u/1843470/lapses_v1.zip
+                </string>
+                <string name="pictotal" >pic. total
+                </string>
+                <string name="location" >Refresh location
+                </string>
+                <string name="retrievinglocation" >Retrieving location
+                </string>
+                <string name="finalmovie" >FINAL MOVIE
+                </string>
+                <string name="app_name" >Lapses
+                </string>
+                <string name="shootingsession" >SHOOTING SESSION
+                </string>
+            </file>
+            <file
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/values/styles.xml"
+                qualifiers="" >
+
+                <style name="FontLabel" >
+                    <item name="android:fontFamily">
+sans-serif
+                    </item>
+                    <item name="android:textSize">
+24sp
+                    </item>
+                    <item name="android:textColor">
+#FFC0C0C0
+                    </item> <!-- 25% grey, 100% opacity -->
+                    <item name="android:gravity">
+left
+                    </item>
+                </style>
+
+                <style
+                    name="LapsesTheme"
+                    parent="android:Theme" >
+                </style>
+
+                <style name="FontValue" >
+                    <item name="android:fontFamily">
+sans-serif
+                    </item>
+                    <item name="android:textSize">
+24sp
+                    </item>
+                    <item name="android:textColor">
+#FFFFFFFF
+                    </item> <!-- White, 100% opacity -->
+                    <item name="android:gravity">
+right
+                    </item>
+                </style>
+
+                <style name="FontTitle" >
+                    <item name="android:fontFamily">
+sans-serif
+                    </item>
+                    <item name="android:textSize">
+36sp
+                    </item>
+                    <item name="android:textColor">
+#FFC0C0C0
+                    </item> <!-- 25% grey, 100% opacity -->
+                    <item name="android:textStyle">
+italic
+                    </item>
+                    <item name="android:gravity">
+right
+                    </item>
+                </style>
+            </file>
+            <file
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/values-de/strings.xml"
+                qualifiers="de" >
+                <string name="about1" >"Idee und Ausführung: Francisco Melado"
+                </string>
+                <string name="about2" >"Java Development: Cintia Folgado"
+                </string>
+                <string name="aboutDE" >"Deutsche Übersetzung: Isabel Melado"
+                </string>
+                <string name="shootingsession" >"FOTOTERMIN"
+                </string>
+                <string name="duration" >"Dauer"
+                </string>
+                <string name="about9" >"http://dl.dropbox.com/u/1843470/lapses_v1sv1.zip"
+                </string>
+                <string name="about7" >"http://www.gnu.org/licenses/gpl-3.0.html"
+                </string>
+                <string name="about8" >"Laden Sie den Quellcode herunter:"
+                </string>
+                <string name="about5" >"https://plus.google.com/b/100806975056898941796/100806975056898941796/posts"
+                </string>
+                <string name="about6" >"Diese Anwendung ist freie Software: Sie dürfen sie weitergeben und / oder modifizieren unter den Bedingungen der GNU General Public License, von der Free Software Foundation veröffentlicht, sei es die Version 3 der Lizenz oder (wenn Sie möchten) eine beliebige spätere Version."
+                </string>
+                <string name="about3" >"Logo: David Galicia"
+                </string>
+                <string name="about4" >"francisco.melado.morillo@gmail.com"
+                </string>
+                <string name="interval" >"Intervall"
+                </string>
+                <string name="menu_settings" >"Konfiguration"
+                </string>
+                <string name="every" >"1 Foto je"
+                </string>
+                <string name="fps" >"FPS"
+                </string>
+                <string name="timer" >"Timer"
+                </string>
+                <string name="title_activity_lapses" >"Lapses"
+                </string>
+                <string name="scaledialog" >"Legen Sie die maximale Dauer der aktuellen Dreharbeiten. Der Schieberegler wird auf die Dauer der Sitzung zu diesem Maximum eingestellt, so dass Sie es mit mehr Präzision verwenden können."
+                </string>
+                <string name="lapse" >"Lapse"
+                </string>
+                <string name="description1" >"Lapses hilft Ihnen, Ihre Zeitraffer - Videoaufnahmen zu planen. Sie müssen eine externe Kamera verwenden, denn Lapses wird Ihre Fotos nicht für Sie machen ."
+                </string>
+                <string name="pictotal" >"Anzahl Bilder"
+                </string>
+                <string name="accept" >"Akzeptieren"
+                </string>
+                <string name="app_name" >"Lapses"
+                </string>
+                <string name="location" >"Update Location"
+                </string>
+                <string name="description3" >"Alle diese Parameter sind miteinander verbunden und sollten vor der Bildaufnahme geplant werden. Geben Sie Lapses die Parameter ein, und stellen Sie Ihre Bildaufnahme mit den Schiebereglern. Wenn Sie einen der Parameter ändern, Lapses wird den Rest nach einer intuitiven Logik einstellen."
+                </string>
+                <string name="description2" >"In einem Zeitraffer soll man die Bildaufnahmen an das Ereignis anpassen, das Sie registrieren möchten: jene soll die gleiche Dauer wie das Ereignis haben, und die Fangquote sollte sich nach der Geschwindigkeit der Geschehen richten. Darüber hinaus müssen Sie auch darüber nachdenken, wie Sie es der Welt zeigen: Wie lange werden Sie die Zeit kondensieren, und wie glatt oder abrupt Sie es präsentieren möchten."
+                </string>
+                <string name="planned" >"Geplant:"
+                </string>
+                <string name="finalmovie" >"MOVIE"
+                </string>
+                <string name="scale" >"Maßstab"
+                </string>
+                <string name="help" >"Hilfe"
+                </string>
+                <string name="hide" >"Ausblenden"
+                </string>
+                <string name="retrievinglocation" >"Lage wird erhalten"
+                </string>
+            </file>
+            <file
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/values-es/strings.xml"
+                qualifiers="es" >
+                <string name="shootingsession" >SESIÓN DE FOTOS
+                </string>
+                <string name="scale" >Escala
+                </string>
+                <string name="about8" >Descargue el código fuente:
+                </string>
+                <string name="about9" >http://dl.dropbox.com/u/1843470/lapses_v1.zip
+                </string>
+                <string name="timer" >Temporizador
+                </string>
+                <string name="retrievinglocation" >Obteniendo ubicación
+                </string>
+                <string name="location" >Actualizar ubicación
+                </string>
+                <string name="every" >1 foto cada
+                </string>
+                <string name="fps" >FPS
+                </string>
+                <string name="help" >Ayuda
+                </string>
+                <string name="about3" >Logotipo: David Galicia
+                </string>
+                <string name="about2" >Desarrollo Java: Cintia Folgado
+                </string>
+                <string name="about1" >Idea y ejecución: Francisco Melado
+                </string>
+                <string name="about7" >http://www.gnu.org/licenses/gpl-3.0.html
+                </string>
+                <string name="about6" >Esta aplicación es software libre: puede redistribuirla y/o modificarla bajo los términos de la Licencia Pública General GNU publicada por la Free Software Foundation, ya sea en la versión 3 de la Licencia, o (si lo desea) en cualquier otra versión posterior.
+                </string>
+                <string name="finalmovie" >PELÍCULA
+                </string>
+                <string name="hide" >Ocultar
+                </string>
+                <string name="about5" >https://plus.google.com/b/100806975056898941796/100806975056898941796/posts
+                </string>
+                <string name="about4" >francisco.melado.morillo@gmail.com
+                </string>
+                <string name="pictotal" >imágenes en total
+                </string>
+                <string name="duration" >Duración
+                </string>
+                <string name="planned" >Planificado:
+                </string>
+                <string name="accept" >Aceptar
+                </string>
+                <string name="aboutDE" >Traducción al alemán: Isabel Melado
+                </string>
+                <string name="description3" >Todos estos parámetros están relacionados, y deben planificarse antes de comenzar la toma de imágenes. Introduzca los parámetros en Lapse, y ajuste su toma usando los deslizadores. Cuando modifique uno de los parámetros, Lapse ajustará el resto siguiendo una lógica intuitiva.
+                </string>
+                <string name="scaledialog" >Ajuste la duración máxima de la sesión de fotos actual. El deslizador de la duración de la sesión se ajustará a este máximo, permitiéndole utilizarlo con más precisión.
+                </string>
+                <string name="app_name" >Lapses
+                </string>
+                <string name="title_activity_lapses" >Lapses
+                </string>
+                <string name="menu_settings" >Configuración
+                </string>
+                <string name="description2" >En un time-lapse debe adaptarse la toma de las imágenes al evento que se quiere registrar: aquélla tiene que durar lo mismo que el evento, y la tasa de captura debe ajustarse a la velocidad a la que suceden los cambios. Pero además, debe pensar también en cómo va a mostrarlo al mundo: en cuánto tiempo va a condensar el momento, y cómo de suave o bruscamente lo presentará.
+                </string>
+                <string name="interval" >Intervalo
+                </string>
+                <string name="description1" >Lapse ayuda a planificar sus capturas de vídeo time-lapse. Debe utilizar una cámara externa, ya que no tomará las imágenes por usted.
+                </string>
+                <string name="lapse" >Lapse
+                </string>
+            </file>
+            <file
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/values-fr/strings.xml"
+                qualifiers="fr" >
+                <string name="duration" >Longeur
+                </string>
+                <string name="title_activity_lapses" >Lapses
+                </string>
+                <string name="scale" >Échelle
+                </string>
+                <string name="about2" >Développement Java: Cintia Folgado
+                </string>
+                <string name="about3" >Logo: David Galicia
+                </string>
+                <string name="about4" >francisco.melado.morillo@gmail.com
+                </string>
+                <string name="about5" >https://plus.google.com/b/100806975056898941796/100806975056898941796/posts
+                </string>
+                <string name="timer" >Minuteur
+                </string>
+                <string name="description3" >Tous ces paramétres sont liés et doivent être planifiées avant le tournage. Entrez les paramètres dans Lapse, et ajustez votre image en utilisant les curseurs. Lorsque vous modifiez un paramètre, Lapse changerá les autres suivant une logique intuitive.
+                </string>
+                <string name="description2" >Dans une vidéo en accéléré vous devez adapter l\'acquisition d\'image à l\'événement que vous souhaitez vous inscrire: elle doit durer le même que l\'événement, et le taux de capture doit être ajusté à la vitesse à laquelle le changement se produit. En outre, vous devez également penser à comment vous allez montrer au monde entier: combien de temps allez-vous pour condenser le temps, et comment doux ou vous tout d\'un coup se produire.
+                </string>
+                <string name="menu_settings" >Paramètres
+                </string>
+                <string name="description1" >Lapse vous aide à planifier votres vidéos en accéléré. Vous devez utiliser une caméra externe, il ne faudra pas les photos pour vous.
+                </string>
+                <string name="about1" >Idée et l\'exécution: Francisco Melado
+                </string>
+                <string name="aboutDE" >Traduction en allemand: Isabel Melado
+                </string>
+                <string name="interval" >Intervalle
+                </string>
+                <string name="planned" >Prévu:
+                </string>
+                <string name="about7" >http://www.gnu.org/licenses/gpl-3.0.html
+                </string>
+                <string name="finalmovie" >FILM
+                </string>
+                <string name="about6" >Cette application est un logiciel libre: vous pouvez le redistribuer et / ou le modifier selon les termes de la Licence Publique Générale GNU telle que publiée par la Free Software Foundation, soit la version 3 de la Licence, ou (à votre choix) toute version ultérieure.
+                </string>
+                <string name="about9" >http://dl.dropbox.com/u/1843470/lapses_v1.zip
+                </string>
+                <string name="about8" >Téléchargez le code source:
+                </string>
+                <string name="fps" >FPS
+                </string>
+                <string name="retrievinglocation" >Localisation en course
+                </string>
+                <string name="shootingsession" >SÉANCE PHOTO
+                </string>
+                <string name="pictotal" >trames dans totale
+                </string>
+                <string name="lapse" >Lapse
+                </string>
+                <string name="scaledialog" >Réglez la durée maximale de la séance d\'aujourd\'hui. Le curseur sur la durée de la session est ajustée à ce maximum, vous permettant de l\'utiliser avec plus de précision.
+                </string>
+                <string name="help" >Assistance
+                </string>
+                <string name="app_name" >Lapses
+                </string>
+                <string name="hide" >Cacher
+                </string>
+                <string name="every" >1 photo chaque
+                </string>
+                <string name="location" >Actualiser emplacement
+                </string>
+                <string name="accept" >Accepter
+                </string>
+            </file>
+            <file
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/values-sw600dp/dimens.xml"
+                qualifiers="sw600dp" >
+                <dimen name="padding_medium" >16dp
+                </dimen>
+                <dimen name="padding_large" >16dp
+                </dimen>
+                <dimen name="margin" >48dp
+                </dimen>
+                <dimen name="padding_small" >8dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/values-v11/lapsestheme_styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="SeekBarLapsesTheme"
+                    parent="android:Widget.Holo.SeekBar" >
+                    <item name="android:progressDrawable">
+@drawable/scrubber_progress_horizontal_holo_dark
+                    </item>
+                    <item name="android:indeterminateDrawable">
+@drawable/scrubber_progress_horizontal_holo_dark
+                    </item>
+                    <item name="android:thumb">
+@drawable/scrubber_control_selector_holo_dark
+                    </item>
+                </style>
+
+                <style
+                    name="ActionBarTheme"
+                    parent="@android:style/Widget.Holo.ActionBar" >
+                    <item name="android:background">
+#22FFFFFF
+                    </item>
+                </style>
+
+                <style name="FontTitle" >
+                    <item name="android:fontFamily">
+sans-serif-light
+                    </item>
+                    <item name="android:textSize">
+36sp
+                    </item>
+                    <item name="android:textColor">
+#FFC0C0C0
+                    </item> <!-- 25% grey, 100% opacity -->
+                    <item name="android:textStyle">
+italic
+                    </item>
+                    <item name="android:gravity">
+right
+                    </item>
+                </style>
+
+                <style name="FontLabel" >
+                    <item name="android:fontFamily">
+sans-serif-condensed
+                    </item>
+                    <item name="android:textSize">
+24sp
+                    </item>
+                    <item name="android:textColor">
+#FFC0C0C0
+                    </item> <!-- 25% grey, 100% opacity -->
+                    <item name="android:gravity">
+left
+                    </item>
+                </style>
+
+                <style
+                    name="ProgressBarLapsesTheme"
+                    parent="android:Widget.Holo.ProgressBar.Horizontal" >
+                    <item name="android:progressDrawable">
+@drawable/progress_horizontal_holo_dark
+                    </item>
+                    <item name="android:indeterminateDrawable">
+@drawable/progress_indeterminate_horizontal_holo_dark
+                    </item>
+                </style>
+
+                <style
+                    name="ImageButtonLapsesTheme"
+                    parent="android:Widget.Holo.ImageButton" >
+                    <item name="android:background">
+@drawable/btn_default_holo_dark
+                    </item>
+                </style>
+
+                <style name="FontValue" >
+                    <item name="android:fontFamily">
+sans-serif-condensed
+                    </item>
+                    <item name="android:textSize">
+24sp
+                    </item>
+                    <item name="android:textColor">
+#FFFFFFFF
+                    </item> <!-- White, 100% opacity -->
+                    <item name="android:gravity">
+right
+                    </item>
+                </style>
+
+                <style
+                    name="ButtonLapsesTheme"
+                    parent="android:Widget.Holo.Button" >
+                    <item name="android:background">
+@drawable/btn_default_holo_dark
+                    </item>
+                </style>
+            </file>
+            <file
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/values-v11/lapsestheme_themes.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="LapsesTheme"
+                    parent="android:Theme.Holo" >
+                    <item name="android:actionBarStyle">
+@style/ActionBarTheme
+                    </item>
+                    <!-- Generated with http://android-holo-colors.com -->
+                    <item name="android:buttonStyle">
+@style/ButtonLapsesTheme
+                    </item>
+                    <item name="android:imageButtonStyle">
+@style/ImageButtonLapsesTheme
+                    </item>
+                    <item name="android:progressBarStyleHorizontal">
+@style/ProgressBarLapsesTheme
+                    </item>
+                    <item name="android:seekBarStyle">
+@style/SeekBarLapsesTheme
+                    </item>
+                    <item name="android:windowActionBarOverlay">
+false
+                    </item>
+                </style>
+            </file>
+            <file
+                name="activity_lapses"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/layout-land/activity_lapses.xml"
+                qualifiers="land"
+                type="layout" />
+            <file
+                name="checks"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/xml/checks.xml"
+                qualifiers=""
+                type="xml" />
+        </source>
+        <source path="/Users/madriguera/AndroidStudioProjects/Lapses/build/res/rs/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/madriguera/AndroidStudioProjects/Lapses/build-types/debug/res" />
+    </dataSet>
+
+</merger>

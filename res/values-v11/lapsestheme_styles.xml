@@ -1,6 +1,34 @@
-<!-- Generated with http://android-holo-colors.com -->
+
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
+  <style name="ActionBarTheme" parent="@android:style/Widget.Holo.ActionBar">
+	  <item name="android:background">#22FFFFFF</item>
+  </style>
+  
+  <style name="FontTitle">
+	  <item name="android:fontFamily">sans-serif-light</item>
+	  <item name="android:textSize">36sp</item>
+	  <item name="android:textColor">#FFC0C0C0</item> <!--25% grey, 100% opacity-->
+	  <item name="android:textStyle">italic</item>
+	  <item name="android:gravity">right</item>
+  </style>
+
+  <style name="FontLabel">
+	  <item name="android:fontFamily">sans-serif-condensed</item>
+	  <item name="android:textSize">24sp</item>
+	  <item name="android:textColor">#FFC0C0C0</item> <!--25% grey, 100% opacity-->
+	  <item name="android:gravity">left</item>
+	</style>
+
+  <style name="FontValue">
+	  <item name="android:fontFamily">sans-serif-condensed</item>
+	  <item name="android:textSize">24sp</item>
+	  <item name="android:textColor">#FFFFFFFF</item> <!--White, 100% opacity-->
+	  <item name="android:gravity">right</item>
+	</style>
+  
+  <!-- Generated with http://android-holo-colors.com -->
+	  
   <style name="ButtonLapsesTheme" parent="android:Widget.Holo.Button">
 	  <item name="android:background">@drawable/btn_default_holo_dark</item>
   </style>

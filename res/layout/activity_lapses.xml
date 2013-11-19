@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:background="#000000" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/FontTitle"
+		    android:id="@+id/tvShootingSession"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:text="@string/shootingsession" />
+
+        <LinearLayout
+            android:id="@+id/llSSDuration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin" >
+
+            <TextView
+                style="@style/FontLabel"
+				android:id="@+id/tvSSDurationT"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/duration" />
+
+            <TextView
+                style="@style/FontValue"
+				android:id="@+id/tvSSDurationV"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2" />
+				
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/sbSSDuration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:max="7199" />
+
+        <LinearLayout
+            android:id="@+id/llSSInterval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin" >
+
+            <TextView
+                style="@style/FontLabel"
+				android:id="@+id/tvSSIntervalT"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/interval" />
+
+            <TextView
+				style="@style/FontValue"
+                android:id="@+id/tvSSIntervalV"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2" />
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/sbSSInterval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:max="59" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/FontTitle"
+			android:id="@+id/tvFinalMovie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:text="@string/finalmovie" />
+
+        <LinearLayout
+            android:id="@+id/llFMDuration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin" >
+
+            <TextView
+                style="@style/FontLabel"
+				android:id="@+id/tvFMDurationT"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/duration" />
+
+            <TextView
+				style="@style/FontValue"
+                android:id="@+id/tvFMDurationV"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2" />
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/sbFMDuration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:max="239" />
+
+        <LinearLayout
+            android:id="@+id/llFMfps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin" >
+
+            <TextView
+                style="@style/FontLabel"
+				android:id="@+id/tvFMfpsT"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/fps" />
+
+            <TextView
+				style="@style/FontValue"
+                android:id="@+id/tvFMfpsV"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2" />
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/sbFMfps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:max="29" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <TextView
+            style="@style/FontValue"
+			android:id="@+id/tvNumpic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin"
+            android:text="@string/pictotal" />
+    </LinearLayout>
+
+</LinearLayout>

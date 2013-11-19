@@ -1,15 +1,15 @@
-<!-- Generated with http://android-holo-colors.com -->
+
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
   <style name="LapsesTheme" parent="android:Theme.Holo">
 
-    <item name="android:buttonStyle">@style/ButtonLapsesTheme</item>
-
+	<item name="android:actionBarStyle">@style/ActionBarTheme</item>
+	<!-- Generated with http://android-holo-colors.com -->
+	<item name="android:buttonStyle">@style/ButtonLapsesTheme</item>
     <item name="android:imageButtonStyle">@style/ImageButtonLapsesTheme</item>
-
     <item name="android:progressBarStyleHorizontal">@style/ProgressBarLapsesTheme</item>
-
     <item name="android:seekBarStyle">@style/SeekBarLapsesTheme</item>
+	<item name="android:windowActionBarOverlay">false</item>
 
   </style>
 
