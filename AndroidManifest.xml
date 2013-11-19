@@ -1,11 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.franmelado.lapses"
     android:versionCode="3"
-    android:versionName="1.2" >
+    android:versionName="2" >
 
     <uses-sdk
         android:minSdkVersion="11"
-        android:targetSdkVersion="17" />
+        android:targetSdkVersion="18" />
     
     <!-- Needed in order to go to links in Info activity -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -18,17 +18,11 @@
         android:theme="@style/LapsesTheme" >
         <activity
             android:name=".LapsesActivity"
-            android:label="@string/title_activity_lapses"
-            android:screenOrientation="portrait" >
+            android:label="@string/title_activity_lapses" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name=".HelpActivity"
-            android:label="@string/help"
-            android:screenOrientation="portrait" >
         </activity>
     </application>
 
