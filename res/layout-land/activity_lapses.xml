@@ -12,22 +12,13 @@
         android:layout_weight="2"
         android:orientation="vertical" >
 
-        <LinearLayout
-            android:id="@+id/llSS"
+        <TextView
+            style="@style/FontTitle"
+		    android:id="@+id/tvShootingSession"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:baselineAligned="true" >
-
-            <TextView
-                style="@style/FontTitle"
-				android:id="@+id/tvShootingSession"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/margin"
-                android:layout_weight="2"
-                android:text="@string/shootingsession" />
-
-        </LinearLayout>
+            android:layout_margin="@dimen/margin"
+            android:text="@string/shootingsession" />
 
         <LinearLayout
             android:id="@+id/llSSDuration"
@@ -50,7 +41,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="2" />
-				
+
         </LinearLayout>
 
         <SeekBar
