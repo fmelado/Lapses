@@ -3,19 +3,19 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/sliders"
 	android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:orientation="vertical" >
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="2"
+        android:id="@+id/ShootingSession"
+		android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical" >
 
         <TextView
              style="@style/FontTitle"
 			 android:id="@+id/tvShootingSession"
-             android:layout_width="0dp"
+             android:layout_width="match_parent"
              android:layout_height="wrap_content"
              android:layout_margin="@dimen/margin"
              android:text="@string/shootingsession" />
@@ -41,7 +41,6 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="2" />
-				
         </LinearLayout>
 
         <SeekBar
@@ -85,9 +84,9 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="2"
+        android:id="@+id/FinalMovie"
+		android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical" >
 
         <TextView
@@ -162,15 +161,15 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1" >
+        android:id="@+id/NumPic"
+		android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
 
         <TextView
             style="@style/FontValue"
 			android:id="@+id/tvNumpic"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_margin="@dimen/margin"
             android:text="@string/pictotal" />
     </LinearLayout>
