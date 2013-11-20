@@ -33,21 +33,20 @@ public class Lapse {
 		this.pt = 600 / 5;
 	}
 
-
 	/**
 	 * Getters and Setters
 	 * Includes methods for calculating different variables
 	 */
 	
 	// @return the scale
-		public int getScale() {
-			return scale;
-		}
+	public int getScale() {
+		return scale;
+	}
 
-		// @param ssd the scale to set
-		public void setScale(int scale) {
-			this.scale = scale;
-		}
+	// @param ssd the scale to set
+	public void setScale(int scale) {
+		this.scale = scale;
+	}
 	
 	// @return the ssd
 	public int getSsd() {

@@ -222,14 +222,6 @@ public class LapsesActivity extends Activity {
 		
 		*/
     }
-
-    /* Desactivado para encontrar errores de ejecución
-	@Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-		getMenuInflater().inflate(R.menu.activity_lapses, menu);
-		return super.onCreateOptionsMenu(menu);
-    }
-	*/
 	
 	/* Pasar a SlidersFragment.java
 	// Updates scale menu item
