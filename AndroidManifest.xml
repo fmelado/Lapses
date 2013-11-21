@@ -6,6 +6,10 @@
     <uses-sdk
         android:minSdkVersion="11"
         android:targetSdkVersion="18" />
+	
+	<supports-screens
+		android:largeScreens="true"
+		android:xlargeScreens="true" />
     
     <!-- Needed in order to go to links in Info activity -->
     <uses-permission android:name="android.permission.INTERNET" />
