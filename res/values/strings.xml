@@ -1,5 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
 <resources>
-    
+
     <string name="app_name">Lapses</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_lapses">Lapses</string>
@@ -20,7 +22,7 @@
 	<string name="planned">Planned:</string>
 	<string name="every">1 picture every</string>
 	<string name="retrievinglocation">Retrieving location</string>
-	<string name="description1">Lapse helps you plan your time-lapse captures. An external camera must be used, as the app will not take pictures for you.</string>
+	<string name="description1">Lapses helps you plan your time-lapse captures. An external camera must be used, as the app will not take pictures for you.</string>
 	<string name="description2">In a time-lapse the image acquisition should be adjusted to the event to be registered. It has to last as long as the event, and the catch rate should be adjusted to the changes speed. In addition, you should also think about how you will show it to the world: how much condensed in time will it be, and how soft or suddenly it will be showed.</string>
 	<string name="description3">All these parameters are related and should be planned before shooting. Enter the parameters in Lapse, and adjust your capture by using the sliders. When editing a parameter, Lapse will change the rest following an intuitive logic.</string>
 	<string name="about1">Idea and execution: Francisco Melado</string>

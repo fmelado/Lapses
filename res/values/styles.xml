@@ -1,12 +1,13 @@
-<resources>
+<?xml version="1.0" encoding="utf-8"?>
 
-    <style name="LapsesTheme" parent="android:Theme">
-	</style>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
+	<style name="LapsesTheme" parent="android:Theme" />
+	
 	<style name="FontTitle">
 		<item name="android:fontFamily">sans-serif</item>
 		<item name="android:textSize">36sp</item>
-		<item name="android:textColor">#FFC0C0C0</item> <!--25% grey, 100% opacity-->
+		<item name="android:textColor">#FFC0C0C0</item> <!-- 25% grey, 100% opacity -->
 		<item name="android:textStyle">italic</item>
 		<item name="android:gravity">center</item>
 	</style>
@@ -14,15 +15,16 @@
 	<style name="FontLabel">
 		<item name="android:fontFamily">sans-serif</item>
 		<item name="android:textSize">24sp</item>
-		<item name="android:textColor">#FF808080</item> <!--50% grey, 100% opacity-->
+		<item name="android:textColor">#FF808080</item> <!-- 50% grey, 100% opacity -->
 		<item name="android:gravity">left</item>
 	</style>
 
 	<style name="FontValue">
 		<item name="android:fontFamily">sans-serif</item>
 		<item name="android:textSize">24sp</item>
-		<item name="android:textColor">#FFFFFFFF</item> <!--White, 100% opacity-->
+		<item name="android:textColor">#FFFFFFFF</item> <!-- White, 100% opacity -->
 		<item name="android:gravity">right</item>
 	</style>
-
+	
 </resources>
+

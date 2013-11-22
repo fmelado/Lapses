@@ -18,15 +18,15 @@
 			 android:id="@+id/tvShootingSession"
              android:layout_width="match_parent"
              android:layout_height="wrap_content"
-             android:layout_margin="@dimen/margin"
+             android:layout_margin="@dimen/margin_horizontal"
              android:text="@string/shootingsession" />
 
         <LinearLayout
             android:id="@+id/llSSDuration"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin"
-            android:layout_marginRight="@dimen/margin" >
+            android:layout_marginLeft="@dimen/margin_horizontal"
+            android:layout_marginRight="@dimen/margin_horizontal" >
 
             <TextView
                 style="@style/FontLabel"
@@ -48,16 +48,16 @@
             android:id="@+id/sbSSDuration"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin"
-            android:layout_marginRight="@dimen/margin"
+            android:layout_marginLeft="@dimen/margin_horizontal"
+            android:layout_marginRight="@dimen/margin_horizontal"
             android:max="7199" />
 
         <LinearLayout
             android:id="@+id/llSSInterval"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin"
-            android:layout_marginRight="@dimen/margin" >
+            android:layout_marginLeft="@dimen/margin_horizontal"
+            android:layout_marginRight="@dimen/margin_horizontal" >
 
             <TextView
                 style="@style/FontLabel"
@@ -79,8 +79,8 @@
             android:id="@+id/sbSSInterval"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin"
-            android:layout_marginRight="@dimen/margin"
+            android:layout_marginLeft="@dimen/margin_horizontal"
+            android:layout_marginRight="@dimen/margin_horizontal"
             android:max="59" />
     </LinearLayout>
 
@@ -95,15 +95,15 @@
 			android:id="@+id/tvFinalMovie"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin"
+            android:layout_margin="@dimen/margin_horizontal"
             android:text="@string/finalmovie" />
 
         <LinearLayout
             android:id="@+id/llFMDuration"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin"
-            android:layout_marginRight="@dimen/margin" >
+            android:layout_marginLeft="@dimen/margin_horizontal"
+            android:layout_marginRight="@dimen/margin_horizontal" >
 
             <TextView
                 style="@style/FontLabel"
@@ -125,16 +125,16 @@
             android:id="@+id/sbFMDuration"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin"
-            android:layout_marginRight="@dimen/margin"
+            android:layout_marginLeft="@dimen/margin_horizontal"
+            android:layout_marginRight="@dimen/margin_horizontal"
             android:max="239" />
 
         <LinearLayout
             android:id="@+id/llFMfps"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin"
-            android:layout_marginRight="@dimen/margin" >
+            android:layout_marginLeft="@dimen/margin_horizontal"
+            android:layout_marginRight="@dimen/margin_horizontal" >
 
             <TextView
                 style="@style/FontLabel"
@@ -156,8 +156,8 @@
             android:id="@+id/sbFMfps"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin"
-            android:layout_marginRight="@dimen/margin"
+            android:layout_marginLeft="@dimen/margin_horizontal"
+            android:layout_marginRight="@dimen/margin_horizontal"
             android:max="29" />
     </LinearLayout>
 
@@ -171,7 +171,7 @@
 			android:id="@+id/tvNumpic"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin"
+            android:layout_margin="@dimen/margin_horizontal"
             android:text="@string/pictotal" />
     </LinearLayout>
 
