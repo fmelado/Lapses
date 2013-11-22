@@ -9,15 +9,15 @@
         android:id="@+id/tvScaleDialog"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-		android:layout_margin="@dimen/margin"
+		android:layout_margin="@dimen/margin_horizontal"
         android:text="@string/scaledialog" />
 	
 	<LinearLayout
         android:id="@+id/llScale"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/margin"
-        android:layout_marginRight="@dimen/margin" >
+        android:layout_marginLeft="@dimen/margin_horizontal"
+        android:layout_marginRight="@dimen/margin_horizontal" >
 		
         <TextView
             style="@style/FontLabel"
@@ -40,9 +40,9 @@
         android:id="@+id/sbScale"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/margin"
-        android:layout_marginRight="@dimen/margin"
-		android:layout_marginBottom="@dimen/margin"
+        android:layout_marginLeft="@dimen/margin_horizontal"
+        android:layout_marginRight="@dimen/margin_horizontal"
+		android:layout_marginBottom="@dimen/margin_horizontal"
         android:max="29" />
 
 </LinearLayout>

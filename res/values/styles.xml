@@ -3,6 +3,10 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
 	<style name="LapsesTheme" parent="android:Theme" />
+		
+	<!-- Custom theme: There are not custom themes prior to API 11 -->
+	<!-- Font styles: There is no support for Holo (light, condensed
+		sans-serif) prior to API 16 -->
 	
 	<style name="FontTitle">
 		<item name="android:fontFamily">sans-serif</item>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
-
-	<style name="LapsesTheme" parent="android:Theme" />
+		
+	<!-- Font styles: Overwrite styles in 'values' to make use
+		of the Roboto variations 'light' and 'condensed' -->
 
 	<style name="FontTitle">
 		<item name="android:fontFamily">sans-serif-light</item>
@@ -25,6 +26,8 @@
 		<item name="android:textColor">#FFFFFFFF</item> <!-- White, 100% opacity -->
 		<item name="android:gravity">right</item>
 	</style>
+	
+	<!-- Custom themes: Use styles and themes in 'values-v11' -->
 
 </resources>
 

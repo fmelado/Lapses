@@ -18,15 +18,18 @@
 			 android:id="@+id/tvShootingSession"
              android:layout_width="match_parent"
              android:layout_height="wrap_content"
-             android:layout_margin="@dimen/margin_horizontal"
+			 android:layout_marginLeft="@dimen/margin_horizontal"
+			 android:layout_marginRight="@dimen/margin_horizontal"
              android:text="@string/shootingsession" />
 
         <LinearLayout
             android:id="@+id/llSSDuration"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin_horizontal"
-            android:layout_marginRight="@dimen/margin_horizontal" >
+            android:layout_marginTop="@dimen/margin_vertical"
+			android:layout_marginBottom="@dimen/margin_vertical"
+			android:layout_marginLeft="@dimen/margin_horizontal"
+			android:layout_marginRight="@dimen/margin_horizontal" >
 
             <TextView
                 style="@style/FontLabel"
@@ -48,16 +51,18 @@
             android:id="@+id/sbSSDuration"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin_horizontal"
-            android:layout_marginRight="@dimen/margin_horizontal"
+			android:layout_marginLeft="@dimen/margin_horizontal"
+			android:layout_marginRight="@dimen/margin_horizontal"
             android:max="7199" />
 
         <LinearLayout
             android:id="@+id/llSSInterval"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin_horizontal"
-            android:layout_marginRight="@dimen/margin_horizontal" >
+            android:layout_marginTop="@dimen/margin_vertical"
+			android:layout_marginBottom="@dimen/margin_vertical"
+			android:layout_marginLeft="@dimen/margin_horizontal"
+			android:layout_marginRight="@dimen/margin_horizontal" >
 
             <TextView
                 style="@style/FontLabel"
@@ -95,15 +100,18 @@
 			android:id="@+id/tvFinalMovie"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin_horizontal"
+            android:layout_marginLeft="@dimen/margin_horizontal"
+			android:layout_marginRight="@dimen/margin_horizontal"
             android:text="@string/finalmovie" />
 
         <LinearLayout
             android:id="@+id/llFMDuration"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin_horizontal"
-            android:layout_marginRight="@dimen/margin_horizontal" >
+            android:layout_marginTop="@dimen/margin_vertical"
+			android:layout_marginBottom="@dimen/margin_vertical"
+			android:layout_marginLeft="@dimen/margin_horizontal"
+			android:layout_marginRight="@dimen/margin_horizontal" >
 
             <TextView
                 style="@style/FontLabel"
@@ -133,8 +141,10 @@
             android:id="@+id/llFMfps"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin_horizontal"
-            android:layout_marginRight="@dimen/margin_horizontal" >
+			android:layout_marginTop="@dimen/margin_vertical"
+			android:layout_marginBottom="@dimen/margin_vertical"
+			android:layout_marginLeft="@dimen/margin_horizontal"
+			android:layout_marginRight="@dimen/margin_horizontal"  >
 
             <TextView
                 style="@style/FontLabel"
@@ -171,7 +181,8 @@
 			android:id="@+id/tvNumpic"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin_horizontal"
+            android:layout_marginLeft="@dimen/margin_horizontal"
+			android:layout_marginRight="@dimen/margin_horizontal"
             android:text="@string/pictotal" />
     </LinearLayout>
 
