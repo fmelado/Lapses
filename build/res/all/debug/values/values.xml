@@ -4,10 +4,9 @@
     <!-- From: file:/Users/madriguera/AndroidStudioProjects/Lapses/res/values/dimens.xml -->
     <eat-comment />
 
-    <dimen name="margin">12dp</dimen>
-    <dimen name="padding_large">32dp</dimen>
-    <dimen name="padding_medium">16dp</dimen>
-    <dimen name="padding_small">8dp</dimen>
+    <dimen name="margin_large">8dp</dimen>
+    <dimen name="margin_medium">8dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
     <!-- From: file:/Users/madriguera/AndroidStudioProjects/Lapses/res/values/strings.xml -->
     <eat-comment />
 
@@ -23,7 +22,7 @@
     <string name="aboutDE">German translation: Isabel Melado</string>
     <string name="accept">Accept</string>
     <string name="app_name">Lapses</string>
-    <string name="description1">Lapse helps you plan your time-lapse captures. An external camera must be used, as the app will not take pictures for you.</string>
+    <string name="description1">Lapses helps you plan your time-lapse captures. An external camera must be used, as the app will not take pictures for you.</string>
     <string name="description2">In a time-lapse the image acquisition should be adjusted to the event to be registered. It has to last as long as the event, and the catch rate should be adjusted to the changes speed. In addition, you should also think about how you will show it to the world: how much condensed in time will it be, and how soft or suddenly it will be showed.</string>
     <string name="description3">All these parameters are related and should be planned before shooting. Enter the parameters in Lapse, and adjust your capture by using the sliders. When editing a parameter, Lapse will change the rest following an intuitive logic.</string>
     <string name="duration">Duration</string>
@@ -50,16 +49,16 @@
     <style name="FontLabel">
         <item name="android:fontFamily">sans-serif</item>
         <item name="android:textSize">24sp</item>
-        <item name="android:textColor">#FFC0C0C0</item> <!-- 25% grey, 100% opacity -->
+        <item name="android:textColor">#FF808080</item> <!-- 50% grey, 100% opacity -->
         <item name="android:gravity">left</item>
     </style>
 
     <style name="FontTitle">
         <item name="android:fontFamily">sans-serif</item>
-        <item name="android:textSize">36sp</item>
+        <item name="android:textSize">32sp</item>
         <item name="android:textColor">#FFC0C0C0</item> <!-- 25% grey, 100% opacity -->
         <item name="android:textStyle">italic</item>
-        <item name="android:gravity">right</item>
+        <item name="android:gravity">center</item>
     </style>
 
     <style name="FontValue">
@@ -69,6 +68,6 @@
         <item name="android:gravity">right</item>
     </style>
 
-    <style name="LapsesTheme" parent="android:Theme"></style>
+    <style name="LapsesTheme" parent="android:Theme" />
 
 </resources>

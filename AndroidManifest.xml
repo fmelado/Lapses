@@ -4,11 +4,11 @@
     android:versionName="2" >
 
     <uses-sdk
-        android:minSdkVersion="11"
+        android:minSdkVersion="13"
         android:targetSdkVersion="18" />
 	
 	<supports-screens
-		android:largeScreens="true"
+        android:largeScreens="true"
 		android:xlargeScreens="true" />
     
     <!-- Needed in order to go to links in Info activity -->

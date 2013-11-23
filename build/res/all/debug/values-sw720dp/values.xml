@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/Users/madriguera/AndroidStudioProjects/Lapses/res/values-sw600dp/dimens.xml -->
+    <!-- From: file:/Users/madriguera/AndroidStudioProjects/Lapses/res/values-sw720dp/dimens.xml -->
     <eat-comment />
 
-    <dimen name="margin_large">48dp</dimen>
+    <dimen name="margin_large">96dp</dimen>
     <dimen name="margin_medium">16dp</dimen>
     <dimen name="margin_small">8dp</dimen>
 

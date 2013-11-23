@@ -10,7 +10,7 @@
 	
 	<style name="FontTitle">
 		<item name="android:fontFamily">sans-serif</item>
-		<item name="android:textSize">36sp</item>
+		<item name="android:textSize">32sp</item>
 		<item name="android:textColor">#FFC0C0C0</item> <!-- 25% grey, 100% opacity -->
 		<item name="android:textStyle">italic</item>
 		<item name="android:gravity">center</item>
