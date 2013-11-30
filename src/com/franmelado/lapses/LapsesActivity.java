@@ -8,6 +8,11 @@ import android.widget.*;
 import android.widget.SeekBar.*;
 
 public class LapsesActivity extends Activity {
+    implements ScaleFragment.OnFinishScaleFragmentListener{
+    
+    public void onScaleSelected(int scale) {
+        // The user selected a new scale value from the ScaleFragment
+        // Do something here to pass this value to SlidersFragment
 	
 	/* Convertir en DialogFragment
 	private static final int SCALE_DIALOG_ID = 0;

@@ -41,17 +41,6 @@ public class SlidersFragment extends Fragment {
          */
 		 
 		myLapse = new Lapse();
-        
-		/*
-		//Initialization of Scale
-        LayoutInflater factory = LayoutInflater.from(this);
-        scaleview = factory.inflate(R.layout.scale, null);
-        seekbarScale = (SeekBar) scaleview.findViewById(R.id.sbScale);
-		scaleValue = (TextView) scaleview.findViewById(R.id.tvScaleValue2);
-		seekbarScale = (SeekBar) scaleview.findViewById(R.id.sbScale);
-		seekbarScale.setProgress (myLapse.getScale() - 1);
-		scaleValue.setText ("max. " + myLapse.getScale() + " h");
-		*/
 		
         //Initialization of Shooting session - Duration
         valueSSD = (TextView) view.findViewById(R.id.tvSSDurationV);
@@ -216,14 +205,15 @@ public class SlidersFragment extends Fragment {
 	}
 	*/
     
-	/* Desactivado para encontrar errores de ejecución
-	@SuppressWarnings("deprecation")
+	// Desactivado para encontrar errores de ejecución
+	//@SuppressWarnings("deprecation")
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
-		// Pasar a SlidersFragment.java
 		case (R.id.menuScale):
-			showDialog(SCALE_DIALOG_ID);
+			FragmentManager fm = getFragmentManager();
+            ScaleFragment sf = new ScaleFragment();
+            sf.show(fm, "fragment_scale");
 			return true;
 		// Esto debería desplegar el SlidingPane
 		case (R.id.menuHelp):
@@ -234,6 +224,9 @@ public class SlidersFragment extends Fragment {
 			return super.onOptionsItemSelected(item);
 		}
 	}
-	*/
-
+	
+	@Override
+    public void onFinishScaleDialog(int scale) {
+        myLapse.setScale(scale);
+	}
 }
