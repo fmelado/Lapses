@@ -92,6 +92,7 @@ public final class R {
         public static final int fragment_help=0x7f030001;
         public static final int fragment_scale=0x7f030002;
         public static final int fragment_sliders=0x7f030003;
+        public static final int phragment_sliders=0x7f030004;
     }
     public static final class menu {
         public static final int fragment_sliders=0x7f070000;
@@ -132,13 +133,13 @@ public final class R {
         public static final int title_activity_lapses=0x7f050020;
     }
     public static final class style {
-        public static final int ActionBarLapsesTheme=0x7f060004;
-        public static final int ButtonLapsesTheme=0x7f060005;
+        public static final int ActionBarLapsesTheme=0x7f060003;
+        public static final int ButtonLapsesTheme=0x7f060004;
         public static final int FontLabel=0x7f060000;
         public static final int FontTitle=0x7f060001;
         public static final int FontValue=0x7f060002;
-        public static final int ImageButtonLapsesTheme=0x7f060006;
-        public static final int LapsesTheme=0x7f060003;
+        public static final int ImageButtonLapsesTheme=0x7f060005;
+        public static final int LapsesTheme=0x7f060006;
         public static final int ProgressBarLapsesTheme=0x7f060007;
         public static final int SeekBarLapsesTheme=0x7f060008;
     }

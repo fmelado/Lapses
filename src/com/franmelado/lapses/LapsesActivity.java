@@ -7,13 +7,17 @@ import android.view.*;
 import android.widget.*;
 import android.widget.SeekBar.*;
 
-public class LapsesActivity extends Activity {
-    implements ScaleFragment.OnFinishScaleFragmentListener{
-    
-    public void onScaleSelected(int scale) {
+public class LapsesActivity extends Activity
+    implements ScaleFragment.ScaleFragmentListener {
+
+    public void onScaleFragmentSelected(int scale) {
         // The user selected a new scale value from the ScaleFragment
         // Do something here to pass this value to SlidersFragment
-	
+        SlidersFragment slidersFrag = (SlidersFragment)
+                getFragmentManager().findFragmentById(R.id.fragment_sliders);
+        slidersFrag.updateScale(scale);
+    }
+
 	/* Convertir en DialogFragment
 	private static final int SCALE_DIALOG_ID = 0;
 	AlertDialog.Builder scaledialogbuilder;
@@ -42,8 +46,7 @@ public class LapsesActivity extends Activity {
     		default: dialog = null;
     	}
 		return dialog;
-    }
-	*/
+    */
 	
     @Override
     public void onCreate(Bundle savedInstanceState) {

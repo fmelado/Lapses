@@ -488,9 +488,9 @@
                 </string>
                 <string name="description2" >In a time-lapse the image acquisition should be adjusted to the event to be registered. It has to last as long as the event, and the catch rate should be adjusted to the changes speed. In addition, you should also think about how you will show it to the world: how much condensed in time will it be, and how soft or suddenly it will be showed.
                 </string>
-                <string name="menu_settings" >Settings
-                </string>
                 <string name="description1" >Lapses helps you plan your time-lapse captures. An external camera must be used, as the app will not take pictures for you.
+                </string>
+                <string name="menu_settings" >Settings
                 </string>
                 <string name="about1" >Idea and execution: Francisco Melado
                 </string>
@@ -526,9 +526,9 @@
                 </string>
                 <string name="retrievinglocation" >Retrieving location
                 </string>
-                <string name="finalmovie" >FINAL MOVIE
-                </string>
                 <string name="app_name" >Lapses
+                </string>
+                <string name="finalmovie" >FINAL MOVIE
                 </string>
                 <string name="shootingsession" >SHOOTING SESSION
                 </string>
@@ -550,11 +550,8 @@ sans-serif
                     <item name="android:gravity">
 left
                     </item>
+ -->
                 </style>
-
-                <style
-                    name="LapsesTheme"
-                    parent="android:Theme" />
 
                 <style name="FontValue" >
                     <item name="android:fontFamily">
@@ -587,6 +584,7 @@ italic
                     <item name="android:gravity">
 center
                     </item>
+ -->
                 </style>
             </file>
             <file
@@ -598,9 +596,9 @@ center
                 </string>
                 <string name="aboutDE" >"Deutsche Übersetzung: Isabel Melado"
                 </string>
-                <string name="shootingsession" >"FOTOTERMIN"
-                </string>
                 <string name="duration" >"Dauer"
+                </string>
+                <string name="shootingsession" >"FOTOTERMIN"
                 </string>
                 <string name="about9" >"http://dl.dropbox.com/u/1843470/lapses_v1sv1.zip"
                 </string>
@@ -652,11 +650,11 @@ center
                 </string>
                 <string name="scale" >"Maßstab"
                 </string>
-                <string name="help" >"Hilfe"
+                <string name="retrievinglocation" >"Lage wird erhalten"
                 </string>
                 <string name="hide" >"Ausblenden"
                 </string>
-                <string name="retrievinglocation" >"Lage wird erhalten"
+                <string name="help" >"Hilfe"
                 </string>
             </file>
             <file
@@ -670,9 +668,9 @@ center
                 </string>
                 <string name="about9" >http://dl.dropbox.com/u/1843470/lapses_v1.zip
                 </string>
-                <string name="timer" >Temporizador
-                </string>
                 <string name="retrievinglocation" >Obteniendo ubicación
+                </string>
+                <string name="timer" >Temporizador
                 </string>
                 <string name="location" >Actualizar ubicación
                 </string>
@@ -716,15 +714,15 @@ center
                 </string>
                 <string name="app_name" >Lapses
                 </string>
-                <string name="title_activity_lapses" >Lapses
+                <string name="description2" >En un time-lapse debe adaptarse la toma de las imágenes al evento que se quiere registrar: aquélla tiene que durar lo mismo que el evento, y la tasa de captura debe ajustarse a la velocidad a la que suceden los cambios. Pero además, debe pensar también en cómo va a mostrarlo al mundo: en cuánto tiempo va a condensar el momento, y cómo de suave o bruscamente lo presentará.
                 </string>
                 <string name="menu_settings" >Configuración
                 </string>
-                <string name="description2" >En un time-lapse debe adaptarse la toma de las imágenes al evento que se quiere registrar: aquélla tiene que durar lo mismo que el evento, y la tasa de captura debe ajustarse a la velocidad a la que suceden los cambios. Pero además, debe pensar también en cómo va a mostrarlo al mundo: en cuánto tiempo va a condensar el momento, y cómo de suave o bruscamente lo presentará.
-                </string>
-                <string name="interval" >Intervalo
+                <string name="title_activity_lapses" >Lapses
                 </string>
                 <string name="description1" >Lapse ayuda a planificar sus capturas de vídeo time-lapse. Debe utilizar una cámara externa, ya que no tomará las imágenes por usted.
+                </string>
+                <string name="interval" >Intervalo
                 </string>
                 <string name="lapse" >Lapse
                 </string>
@@ -744,19 +742,19 @@ center
                 </string>
                 <string name="about4" >francisco.melado.morillo@gmail.com
                 </string>
-                <string name="about5" >https://plus.google.com/b/100806975056898941796/100806975056898941796/posts
-                </string>
                 <string name="timer" >Minuteur
+                </string>
+                <string name="about5" >https://plus.google.com/b/100806975056898941796/100806975056898941796/posts
                 </string>
                 <string name="description3" >Tous ces paramétres sont liés et doivent être planifiées avant le tournage. Entrez les paramètres dans Lapse, et ajustez votre image en utilisant les curseurs. Lorsque vous modifiez un paramètre, Lapse changerá les autres suivant une logique intuitive.
                 </string>
                 <string name="description2" >Dans une vidéo en accéléré vous devez adapter l\'acquisition d\'image à l\'événement que vous souhaitez vous inscrire: elle doit durer le même que l\'événement, et le taux de capture doit être ajusté à la vitesse à laquelle le changement se produit. En outre, vous devez également penser à comment vous allez montrer au monde entier: combien de temps allez-vous pour condenser le temps, et comment doux ou vous tout d\'un coup se produire.
                 </string>
-                <string name="menu_settings" >Paramètres
+                <string name="about1" >Idée et l\'exécution: Francisco Melado
                 </string>
                 <string name="description1" >Lapse vous aide à planifier votres vidéos en accéléré. Vous devez utiliser une caméra externe, il ne faudra pas les photos pour vous.
                 </string>
-                <string name="about1" >Idée et l\'exécution: Francisco Melado
+                <string name="menu_settings" >Paramètres
                 </string>
                 <string name="aboutDE" >Traduction en allemand: Isabel Melado
                 </string>
@@ -788,145 +786,16 @@ center
                 </string>
                 <string name="help" >Assistance
                 </string>
-                <string name="app_name" >Lapses
+                <string name="every" >1 photo chaque
                 </string>
                 <string name="hide" >Cacher
                 </string>
-                <string name="every" >1 photo chaque
+                <string name="app_name" >Lapses
                 </string>
                 <string name="location" >Actualiser emplacement
                 </string>
                 <string name="accept" >Accepter
                 </string>
-            </file>
-            <file
-                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/values-v11/styles.xml"
-                qualifiers="v11" >
-
-                <style
-                    name="SeekBarLapsesTheme"
-                    parent="android:Widget.Holo.SeekBar" >
-                    <item name="android:progressDrawable">
-@drawable/scrubber_progress_horizontal_holo_dark
-                    </item>
-                    <item name="android:indeterminateDrawable">
-@drawable/scrubber_progress_horizontal_holo_dark
-                    </item>
-                    <item name="android:thumb">
-@drawable/scrubber_control_selector_holo_dark
-                    </item>
-                </style>
-
-                <style
-                    name="ActionBarLapsesTheme"
-                    parent="android:Widget.Holo.ActionBar" >
-                    <item name="android:background">
-#22FFFFFF
-                    </item>
-                </style>
-
-                <style name="FontTitle" >
-                    <item name="android:fontFamily">
-sans-serif
-                    </item>
-                    <item name="android:textSize">
-32sp
-                    </item>
-                    <item name="android:textColor">
-#FFC0C0C0
-                    </item> <!-- 25% grey, 100% opacity -->
-                    <item name="android:textStyle">
-italic
-                    </item>
-                    <item name="android:gravity">
-center
-                    </item>
-                </style>
-
-                <style name="FontLabel" >
-                    <item name="android:fontFamily">
-sans-serif
-                    </item>
-                    <item name="android:textSize">
-24sp
-                    </item>
-                    <item name="android:textColor">
-#FF808080
-                    </item> <!-- 50% grey, 100% opacity -->
-                    <item name="android:gravity">
-left
-                    </item>
-                </style>
-
-                <style
-                    name="ProgressBarLapsesTheme"
-                    parent="android:Widget.Holo.ProgressBar.Horizontal" >
-                    <item name="android:progressDrawable">
-@drawable/progress_horizontal_holo_dark
-                    </item>
-                    <item name="android:indeterminateDrawable">
-@drawable/progress_indeterminate_horizontal_holo_dark
-                    </item>
-                </style>
-
-                <style
-                    name="ImageButtonLapsesTheme"
-                    parent="android:Widget.Holo.ImageButton" >
-                    <item name="android:background">
-@drawable/btn_default_holo_dark
-                    </item>
-                </style>
-
-                <style name="FontValue" >
-                    <item name="android:fontFamily">
-sans-serif
-                    </item>
-                    <item name="android:textSize">
-24sp
-                    </item>
-                    <item name="android:textColor">
-#FFFFFFFF
-                    </item> <!-- White, 100% opacity -->
-                    <item name="android:gravity">
-right
-                    </item>
-                </style>
-
-                <style
-                    name="ButtonLapsesTheme"
-                    parent="android:Widget.Holo.Button" >
-                    <item name="android:background">
-@drawable/btn_default_holo_dark
-                    </item>
-                </style>
-            </file>
-            <file
-                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/values-v11/themes.xml"
-                qualifiers="v11" >
-
-                <style
-                    name="LapsesTheme"
-                    parent="android:Theme.Holo" >
-                    <item name="android:actionBarStyle">
-@style/ActionBarLapsesTheme
-                    </item>
-                    <!-- Generated with http://android-holo-colors.com -->
-                    <item name="android:buttonStyle">
-@style/ButtonLapsesTheme
-                    </item>
-                    <item name="android:imageButtonStyle">
-@style/ImageButtonLapsesTheme
-                    </item>
-                    <item name="android:progressBarStyleHorizontal">
-@style/ProgressBarLapsesTheme
-                    </item>
-                    <item name="android:seekBarStyle">
-@style/SeekBarLapsesTheme
-                    </item>
-                    <item name="android:windowActionBarOverlay">
-false
-                    </item>
-                </style>
             </file>
             <file
                 path="/Users/madriguera/AndroidStudioProjects/Lapses/res/values-v16/styles.xml"
@@ -978,6 +847,14 @@ right
                 </style>
 
                 <style
+                    name="ActionBarLapsesTheme"
+                    parent="android:Widget.Holo.ActionBar" >
+                    <item name="android:background">
+#22FFFFFF
+                    </item>
+                </style>
+
+                <style
                     name="SeekBarLapsesTheme"
                     parent="android:Widget.Holo.SeekBar" >
                     <item name="android:progressDrawable">
@@ -988,14 +865,6 @@ right
                     </item>
                     <item name="android:thumb">
 @drawable/scrubber_control_selector_holo_dark
-                    </item>
-                </style>
-
-                <style
-                    name="ActionBarLapsesTheme"
-                    parent="android:Widget.Holo.ActionBar" >
-                    <item name="android:background">
-#22FFFFFF
                     </item>
                 </style>
 
@@ -1032,16 +901,6 @@ left
                 </style>
             </file>
             <file
-                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/values-sw480dp-land/dimens.xml"
-                qualifiers="sw480dp-land" >
-                <dimen name="margin_large" >8dp
-                </dimen>
-                <dimen name="margin_small" >8dp
-                </dimen>
-                <dimen name="margin_medium" >8dp
-                </dimen>
-            </file>
-            <file
                 path="/Users/madriguera/AndroidStudioProjects/Lapses/res/values-sw720dp/dimens.xml"
                 qualifiers="sw720dp" >
                 <dimen name="margin_medium" >16dp
@@ -1066,16 +925,11 @@ left
                 qualifiers="sw600dp" >
                 <dimen name="margin_large" >48dp
                 </dimen>
-                <dimen name="margin_small" >8dp
-                </dimen>
                 <dimen name="margin_medium" >16dp
                 </dimen>
+                <dimen name="margin_small" >8dp
+                </dimen>
             </file>
-            <file
-                name="fragment_sliders"
-                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/layout-sw600dp-land/fragment_sliders.xml"
-                qualifiers="sw600dp-land"
-                type="layout" />
             <file
                 path="/Users/madriguera/AndroidStudioProjects/Lapses/res/values-v16/themes.xml"
                 qualifiers="v16" >
@@ -1105,25 +959,25 @@ false
                 </style>
             </file>
             <file
-                name="fragment_sliders"
-                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/layout-sw480dp-land/fragment_sliders.xml"
-                qualifiers="sw480dp-land"
-                type="layout" />
-            <file
-                name="fragment_sliders"
-                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/layout-sw720dp-land/fragment_sliders.xml"
-                qualifiers="sw720dp-land"
-                type="layout" />
-            <file
                 path="/Users/madriguera/AndroidStudioProjects/Lapses/res/values-sw720dp-land/dimens.xml"
                 qualifiers="sw720dp-land" >
                 <dimen name="margin_small" >8dp
                 </dimen>
-                <dimen name="margin_medium" >16dp
-                </dimen>
                 <dimen name="margin_large" >192dp
                 </dimen>
+                <dimen name="margin_medium" >16dp
+                </dimen>
             </file>
+            <file
+                name="phragment_sliders"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/layout-land/phragment_sliders.xml"
+                qualifiers="land"
+                type="layout" />
+            <file
+                name="fragment_sliders"
+                path="/Users/madriguera/AndroidStudioProjects/Lapses/res/layout-sw600dp/fragment_sliders.xml"
+                qualifiers="sw600dp"
+                type="layout" />
         </source>
         <source path="/Users/madriguera/AndroidStudioProjects/Lapses/build/res/rs/debug" />
     </dataSet>

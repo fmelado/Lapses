@@ -51,7 +51,7 @@
         <item name="android:textSize">24sp</item>
         <item name="android:textColor">#FF808080</item> <!-- 50% grey, 100% opacity -->
         <item name="android:gravity">left</item>
-    </style>
+ --></style>
 
     <style name="FontTitle">
         <item name="android:fontFamily">sans-serif</item>
@@ -59,7 +59,7 @@
         <item name="android:textColor">#FFC0C0C0</item> <!-- 25% grey, 100% opacity -->
         <item name="android:textStyle">italic</item>
         <item name="android:gravity">center</item>
-    </style>
+ --></style>
 
     <style name="FontValue">
         <item name="android:fontFamily">sans-serif</item>
@@ -67,7 +67,5 @@
         <item name="android:textColor">#FFFFFFFF</item> <!-- White, 100% opacity -->
         <item name="android:gravity">right</item>
     </style>
-
-    <style name="LapsesTheme" parent="android:Theme" />
 
 </resources>

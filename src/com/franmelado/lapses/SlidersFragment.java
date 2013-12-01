@@ -185,6 +185,11 @@ public class SlidersFragment extends Fragment {
 		
 		return view;
     }
+
+    public void updateScale(int scale) {
+        myLapse.setScale(scale);
+        seekbarSSD.setMax(myLapse.getScale() * 3600);
+    }
 	
 	@Override
 	public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
@@ -217,8 +222,8 @@ public class SlidersFragment extends Fragment {
 			return true;
 		// Esto debería desplegar el SlidingPane
 		case (R.id.menuHelp):
-			Intent intent = new Intent(LapsesActivity.this, HelpActivity.class);
-			startActivity(intent);
+			//Intent intent = new Intent(LapsesActivity.this, HelpActivity.class);
+			//startActivity(intent);
 			return true;
 		default:
 			return super.onOptionsItemSelected(item);
