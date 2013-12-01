@@ -1,8 +1,0 @@
-# incremental data. DO NOT EDIT.
-# format is <lastModified> <length> <SHA-1> <path>
-# Encoding is UTF-8
-1385138242000 1207 d2d590be5b079d064df3e5ece0d8db6ac9e99959 /Users/madriguera/AndroidStudioProjects/Lapses/src/com/franmelado/lapses/HelpFragment.java
-1385138340000 2144 2f952d3aa09cf58f40e5fd8945f79cb0d1f4f977 /Users/madriguera/AndroidStudioProjects/Lapses/src/com/franmelado/lapses/Lapse.java
-1385835858000 8533 de6158ca2cf553b0c14bdb85c390ec1d323e3718 /Users/madriguera/AndroidStudioProjects/Lapses/src/com/franmelado/lapses/SlidersFragment.java
-1385835858000 1552 e4e2f3a1404e2d644a2c099ea64d7b2bd9536adb /Users/madriguera/AndroidStudioProjects/Lapses/src/com/franmelado/lapses/LapsesActivity.java
-1385835858000 1649 b9c39d77766b70abd8cdb43b9b21ef751d65bf49 /Users/madriguera/AndroidStudioProjects/Lapses/src/com/franmelado/lapses/ScaleFragment.java

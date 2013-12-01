@@ -1,12 +1,10 @@
 package com.franmelado.lapses;
 
-import android.*;
 import android.app.*;
+import android.content.DialogInterface;
 import android.os.*;
 import android.view.*;
 import android.widget.*;
-
-import android.R;
 
 public class ScaleFragment extends DialogFragment {
     ScaleFragmentListener mCallback;
@@ -34,10 +32,17 @@ public class ScaleFragment extends DialogFragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater,
-		Bundle savedInstanceState) {
+    public View onCreateDialog(Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.fragment_scale, null);
+        AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+        builder.setTitle(R.string.scale)
+            .setView(R.layout.fragment_scale)
+            .setPositiveButton(R.string.hide, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    dismiss();
+                }
+            });
 		
 		// Initialization of Scale
         //seekbarScale = (SeekBar) scaleview.findViewById(R.id.sbScale);
@@ -45,7 +50,7 @@ public class ScaleFragment extends DialogFragment {
 		//seekbarScale.setProgress (myLapse.getScale() - 1);
 		//scaleValue.setText ("max. " + myLapse.getScale() + " h");
 		
-		getDialog().setTitle(R.id.string/lapse);
+		getDialog().setTitle(R.string.lapse);
 
         return view;
     }
