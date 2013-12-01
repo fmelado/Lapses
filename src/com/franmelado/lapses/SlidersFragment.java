@@ -8,13 +8,11 @@ import android.widget.SeekBar.*;
 
 public class SlidersFragment extends Fragment {
 
-	SeekBar seekbarScale;
 	SeekBar seekbarSSD;
 	SeekBar seekbarSSI;
 	SeekBar seekbarFMD;
 	SeekBar seekbarFMF;
 
-	TextView scaleValue;
 	TextView valueSSD;
 	TextView valueSSI;
 	TextView valueFMD;
@@ -23,12 +21,10 @@ public class SlidersFragment extends Fragment {
 	
 	Lapse myLapse;
 	
-	/* ¿Es esto necesario?
 	@Override
 	public void onActivityCreated(Bundle savedInstanceState){
 		super.onActivityCreated(savedInstanceState);
 	}
-	*/
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -73,27 +69,6 @@ public class SlidersFragment extends Fragment {
 		/**
          * Handle changes on seekbars
 		 */
-        
-        /* Handle changes on Scale
-      	seekbarScale.setOnSeekBarChangeListener ( new OnSeekBarChangeListener() {
-      		
-      		public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-      			//Seekbar values: 0-29, text values: 1-30. It's the same with the other seekbars.
-              	//Calculate
-              	myLapse.setScale(progress + 1);
-                seekbarSSD.setMax(myLapse.getScale() * 3600);
-                //Refresh views
-              	invalidateOptionsMenu(); //Reloads the menu
-              	scaleValue.setText ("max. " + myLapse.getScale() + " h");
-      		}
-      		
-      		public void onStopTrackingTouch(SeekBar seekBar) {
-			}
-                
-      		public void onStartTrackingTouch(SeekBar seekBar) {
-            }
-      	});
-		*/
 		
         //Handle changes on SSD seekbar
         seekbarSSD.setOnSeekBarChangeListener( new OnSeekBarChangeListener() {
@@ -187,8 +162,9 @@ public class SlidersFragment extends Fragment {
     }
 
     public void updateScale(int scale) {
-        myLapse.setScale(scale);
-        seekbarSSD.setMax(myLapse.getScale() * 3600);
+        // The activity calls this method when
+		// the scale in SlidersFragment changes
+		seekbarSSD.setMax((scale * 3600) - 1);
     }
 	
 	@Override
