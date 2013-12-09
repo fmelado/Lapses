@@ -1,15 +1,19 @@
 package com.franmelado.lapses;
 
-import android.app.*;
-import android.content.*;
-import android.net.*;
 import android.os.*;
-import android.view.*;
-import android.view.View.*;
-import android.widget.*;
+import android.preference.*;
 
-public class HelpFragment extends Fragment {
+public class SettingsFragment extends PreferenceFragment {
 
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		
+		// Load the preferences from an XML resource
+		addPreferencesFromResource(R.xml.preferences);
+	}
+	
+	/*
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
@@ -37,4 +41,5 @@ public class HelpFragment extends Fragment {
 		
 		return view;
 	}
+	*/
 }

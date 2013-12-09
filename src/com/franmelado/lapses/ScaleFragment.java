@@ -10,7 +10,7 @@ import android.widget.SeekBar.*;
 public class ScaleFragment extends DialogFragment {
     ScaleFragmentListener mCallback;
 	
-	int scale_saved, scale_new;
+	int scale;
 	SeekBar seekbarScale;
 	TextView scaleValue;
 
@@ -27,7 +27,7 @@ public class ScaleFragment extends DialogFragment {
         super.onAttach(activity);
         
         // This makes sure that the container activity has implemented
-        // the callback interface. If not, it throws  an exception
+        // the callback interface. If not, it throws  an exception.
         try {
             mCallback = (ScaleFragmentListener) activity;
         } catch (ClassCastException e) {
@@ -54,41 +54,33 @@ public class ScaleFragment extends DialogFragment {
 		// Initialization of Scale
         seekbarScale = (SeekBar) scaleview.findViewById(R.id.sbScale);
 		scaleValue = (TextView) scaleview.findViewById(R.id.tvScaleValue2);
-		final SharedPreferences sharedPref = getActivity().getPreferences(Context.MODE_PRIVATE);
 		// Retrieve saved scale value, default=2
-		scale_saved = sharedPref.getInt("com.franmelado.lapses.scale", 2);
-		scale_new = scale_saved;
-		seekbarScale.setProgress(scale_saved - 1);
-		scaleValue.setText("max. " + scale_saved + " h");
+		final SharedPreferences sharedPref = getActivity().getPreferences(Context.MODE_PRIVATE);
+		scale = sharedPref.getInt("com.franmelado.lapses.scale", 2);
+		// Seekbar values: 0-29, text values: 1-30. It's the same with the other seekbars.
+		seekbarScale.setProgress(scale - 1);
+		scaleValue.setText("max. " + scale + " h");
 		
 		// Handle changes on Scale
 		seekbarScale.setOnSeekBarChangeListener( new OnSeekBarChangeListener() {
 
-		public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-		    //Seekbar values: 0-29, text values: 1-30. It's the same with the other seekbars.
-		    //Calculate
-			scale_new = progress + 1;
-		    scaleValue.setText ("max. " + scale_new + " h");
-			mCallback.onScaleFragmentSelected(scale_new); // Sends scale value to the activity
-		}
+		    public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+			    scale = progress + 1;
+		        scaleValue.setText ("max. " + scale + " h");
+			    mCallback.onScaleFragmentSelected(scale); // Sends scale value to the activity
+		    }
 
-		public void onStopTrackingTouch(SeekBar seekBar) {
-			SharedPreferences.Editor editor = sharedPref.edit();
-		    editor.putInt("com.franmelado.lapses.scale", scale_new);
-		    editor.commit();
-		}
+		    public void onStopTrackingTouch(SeekBar seekBar) {
+			    // Save scale value in preferences
+				SharedPreferences.Editor editor = sharedPref.edit();
+		        editor.putInt("com.franmelado.lapses.scale", scale);
+		        editor.commit();
+		    }
 
-		public void onStartTrackingTouch(SeekBar seekBar) {
-		}
+		    public void onStartTrackingTouch(SeekBar seekBar) {
+		    }
 		});
 
         return builder.create();
     }
-	
-	@Override
-    public void onScaleFragmentSelected(int scale) {
-        // Send the event to the host activity
-        mCallback.onScaleFragmentSelected(scale);
-    }
-
 }

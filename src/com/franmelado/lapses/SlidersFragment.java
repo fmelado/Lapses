@@ -1,6 +1,7 @@
 package com.franmelado.lapses;
 
 import android.app.*;
+import android.content.*;
 import android.os.*;
 import android.view.*;
 import android.widget.*;
@@ -19,10 +20,12 @@ public class SlidersFragment extends Fragment {
 	TextView valueFMF;
 	TextView picTotal;
 	
+	int scale;
+	
 	Lapse myLapse;
 	
 	@Override
-	public void onActivityCreated(Bundle savedInstanceState){
+	public void onActivityCreated(Bundle savedInstanceState) {
 		super.onActivityCreated(savedInstanceState);
 	}
 	
@@ -43,6 +46,10 @@ public class SlidersFragment extends Fragment {
         seekbarSSD = (SeekBar) view.findViewById(R.id.sbSSDuration);
         seekbarSSD.setProgress(myLapse.getSsd() - 1);
         valueSSD.setText(myLapse.formatS(myLapse.getSsd()));
+		// Retrieve saved scale value, default=2
+		final SharedPreferences sharedPref = getActivity().getPreferences(Context.MODE_PRIVATE);
+		scale = sharedPref.getInt("com.franmelado.lapses.scale", 2);
+		seekbarSSD.setMax((scale * 3600) - 1);
         
         // Initialization of Shooting session - Interval
         valueSSI = (TextView) view.findViewById(R.id.tvSSIntervalV);
@@ -163,7 +170,7 @@ public class SlidersFragment extends Fragment {
 
     public void updateScale(int scale) {
         // The activity calls this method when
-		// the scale in SlidersFragment changes
+		// the scale in ScaleFragment changes
 		seekbarSSD.setMax((scale * 3600) - 1);
     }
 	
@@ -185,9 +192,7 @@ public class SlidersFragment extends Fragment {
 		return super.onPrepareOptionsMenu(menu);
 	}
 	*/
-    
-	// Desactivado para encontrar errores de ejecución
-	//@SuppressWarnings("deprecation")
+
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
@@ -195,11 +200,6 @@ public class SlidersFragment extends Fragment {
 			FragmentManager fm = getFragmentManager();
             ScaleFragment sf = new ScaleFragment();
             sf.show(fm, "fragment_scale");
-			return true;
-		// Esto debería desplegar el SlidingPane
-		case (R.id.menuHelp):
-			//Intent intent = new Intent(LapsesActivity.this, HelpActivity.class);
-			//startActivity(intent);
 			return true;
 		default:
 			return super.onOptionsItemSelected(item);
