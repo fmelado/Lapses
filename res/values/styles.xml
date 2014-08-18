@@ -15,7 +15,7 @@
 
 	<style name="FontLabel">
 		<item name="android:fontFamily">sans-serif</item>
-		<item name="android:textSize">24sp</item>
+		<item name="android:textSize">20sp</item>
 		<item name="android:textColor">#FF808080</item> <!-- 50% grey, 100% opacity -->
 		<item name="android:gravity">left</item> -->
 	</style>

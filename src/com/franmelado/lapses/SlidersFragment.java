@@ -205,8 +205,7 @@ public class SlidersFragment extends Fragment {
 			return super.onOptionsItemSelected(item);
 		}
 	}
-	
-	@Override
+
     public void onFinishScaleDialog(int scale) {
         myLapse.setScale(scale);
 	}
